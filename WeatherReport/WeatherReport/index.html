@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>WR</title>
+</head>
+<body class="body"> <!--Page Body-->
+    <h1 class="title"><span class="text-white fw-bold">Could this API know the Weather Report anywhere?</span></h1> <!--Título de la página-->
+
+    <div class="bxs"> <!--Weather Button-->
+        <label class="text-white"><h4>Latitude</h4></label>
+        <input type="text" id="lat" placeholder="0.00">
+        <br/>
+        <br/>
+        <label class="text-white"><h4>Longitude</h4></label>
+        <input type="text" id="lon" placeholder="0.00">
+        <br/>
+        <br/>
+        <button class="btn-primary" onclick="getWeather()">Get Weather Report</button>
+    </div>
+
+    <div class="fw-bold text_data" id="result"> <!--Changin' Weather-->
+        Weather Report: 
+    </div>
+</body>
+<script src="weatherReport.js"></script>
+</html>

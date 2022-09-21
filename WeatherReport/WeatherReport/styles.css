@@ -1,0 +1,51 @@
+.title
+{
+    text-align: center;
+    size: 80px;
+    padding: 20px;
+    color: #8888AE;
+    margin-top: 10px;
+}
+
+.bxs
+{
+    text-align: center;
+    size: 30px;
+    padding: 20px;
+    color: #8888AE;
+    margin-top: 25px;
+    border-radius: 10rem;
+}
+
+.text_data
+{
+    text-align: center;
+    size: 25px;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.images
+{
+    height: 400px;
+    width: 600px;
+    border-width: 0px;
+}
+
+.body {
+    background-color: #29294e;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    background-repeat: no-repeat;
+    background-image: url("https://static.wikia.nocookie.net/jojo/images/0/0d/Arte_de_Weather_Report_por_David_Production.png/revision/latest?cb=20210808073948&path-prefix=es");
+}
+button {
+    background-color: black;
+    text-align: left;
+    padding: 1rem;
+    height:10rem;
+    width:20rem;
+    border-radius: 10rem;
+    background-image: url("https://static.wikia.nocookie.net/jojo/images/0/0b/Weather_Report_Stand_%28Anime%29.png/revision/latest?cb=20211109100905&path-prefix=es");
+}
