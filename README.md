@@ -1,3 +1,6 @@
 # WebDev
 
-##First Midterm
+## First Midterm 
+### Author: 
+### Nezih Nieto Gutiérrez
+### A01732702
