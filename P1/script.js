@@ -1,6 +1,6 @@
 function getData(){
     url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1002000001/es/01/false/BISE/2.0/02c49f7d-32df-6048-4648-673e3542b7f8?type=json";
-    //console.log(url);
+    console.log(url);
     var request = new XMLHttpRequest();
     request.onload = function(bg) {
       console.log(bg);
@@ -14,7 +14,7 @@ function getData(){
       createTable(data);
     }
     request.open("GET", url, true);
-    //request.send();
+    request.send();
   }
 
 function createTable(data)
