@@ -1,0 +1,30 @@
+
+table, th, td {
+    border: 1px solid;
+    margin: 0 auto;
+    text-align: center;
+  } 
+button {
+    margin: 0 auto;
+    width: 30%;
+    align-self: center;
+    margin-left: 11rem;
+    border-radius: 10px;
+}
+.header {
+    width: 35%;
+    background: aquamarine;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+}
+#myTable {
+    background-color: aliceblue;
+}
+body {
+    align-content: center;
+    background-color: azure;
+}
+
+
