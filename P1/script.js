@@ -14,7 +14,7 @@ function getData(){
       createTable(data);
     }
     request.open("GET", url, true);
-    request.send();
+    request.send();//ERROR
   }
 
 function createTable(data)
