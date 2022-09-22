@@ -2,8 +2,15 @@
 table, th, td {
     border: 1px solid;
     margin: 0 auto;
-    text-align: center;
-  } 
+    width: 30%;
+    align-self: center;
+    margin-left: 11rem;
+    margin-top: 2rem;
+    border-collapse: collapse;
+} 
+th {
+    background: aquamarine;
+}
 button {
     margin: 0 auto;
     width: 30%;
@@ -19,8 +26,8 @@ button {
     padding-left: 2rem;
     border-radius: 10px;
 }
-#myTable {
-    background-color: aliceblue;
+tr:hover {
+    background-color: aquamarine;
 }
 body {
     align-content: center;
